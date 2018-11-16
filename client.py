@@ -2,7 +2,7 @@ import sys
 import select
 import socket
 
-#this class is the chat client and will essentially set up and run the client for the IRC
+#this class is the chat client and will essentially set up and run the client for the IRC program
 class chat:
 	#chat class is initialized by connecting the client socket to internet and TCP connection. 
 	def __init__(self,username,port,host):
